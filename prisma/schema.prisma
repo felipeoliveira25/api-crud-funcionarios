@@ -19,4 +19,6 @@ model Funcionario {
   idade   Int 
   cargo   String
   email   String @unique
+
+  @@map("funcionarios")
 }
